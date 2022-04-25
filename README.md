@@ -22,12 +22,6 @@ http://localhost:8080/Zee5.php?c=CHANNEL_CODE
 
 http://localhost:8080/Zee5.php?c=0-9-zeecinemahd
 
-Use Our Hosting:-
-
-https://techmax-pro.000webhostapp.com/Zee5/Zee5-1.php?c=CHANNEL_CODE
-
-https://techmax-pro.000webhostapp.com/Zee5/Zee5-1.php?c=0-9-zeecinemahd
-
 Channels Code :
 
 Entertainment :
