@@ -32,15 +32,6 @@ $img = str_replace('270x152', '1170x658', $image);
 $title= $zx["assetDetails"]['title'];
 $playit= $zx["keyOsDetails"]['video_token'];
 
-header("Content-Type: application/json");
-$errr= array("error" => "Put Here Only ZEE5-TV URL ,  Invalid Input " );
-$err =json_encode($errr);
-
-
-$apii = array("title" => $title, "image" => $img, "url" => $playit, "modified_by" => "Techie Sneh");
-$api =json_encode($apii, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
-
-header("Content-Type: application/json");
-echo $api;
+header("Location: $playit");
   
 ?>
