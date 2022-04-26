@@ -3,7 +3,7 @@
 $curl = curl_init();
 $channel =$_GET['c'];
 
-$url="https://spapi.zee5.com/singlePlayback/getDetails?channel_id=$channel&device_id=o6MhX3zFu1lGHBKrR2uW000000000000&platform_name=desktop_web&translation=en&user_language=en,hi,mr&country=IN&state=BR&app_version=2.50.50&user_type=guest&check_parental_control=false&ppid=o6MhX3zFu1lGHBKrR2uW000000000000&version=12";
+$url="https://spapi.zee5.com/singlePlayback/getDetails?channel_id=$channel";
 
 curl_setopt_array($curl, array(
   CURLOPT_URL => $url,
@@ -15,13 +15,14 @@ curl_setopt_array($curl, array(
   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   CURLOPT_CUSTOMREQUEST => 'POST',
   CURLOPT_POSTFIELDS =>'{
-  "x-access-token": " ",  
-  "Authorization": " "
+  "x-access-token": "",  
+  "Authorization": ""
 }',
   CURLOPT_HTTPHEADER => array(
     'Content-Type: application/json'
   ),
 ));
+
 
 $response = curl_exec($curl);
 curl_close($curl);
