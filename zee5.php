@@ -12,7 +12,7 @@ if (isset($_GET["id"])) {
 
 $curl = curl_init();
 
-$url = "https://spapi.zee5.com/singlePlayback/getDetails/secure?channel_id=$channel&&device_id=&platform_name=desktop_web&country=IN&check_parental_control=false";
+$url = "https://spapi.zee5.com/singlePlayback/getDetails/secure?channel_id=$channel&device_id=&platform_name=desktop_web&country=IN&check_parental_control=false";
 
 curl_setopt_array($curl, [
     CURLOPT_URL => $url,
