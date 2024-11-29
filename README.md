@@ -18,9 +18,9 @@ First Of All You Need One Zee5 Premium Account.
 
 Examle url For Local Host:-
 
-http://localhost:8080/Zee5.php?c=CHANNEL_CODE
+http://localhost:8080/Zee5.php?id=CHANNEL_CODE
 
-http://localhost:8080/Zee5.php?c=0-9-zeecinemahd
+http://localhost:8080/Zee5.php?id=0-9-zeecinemahd
 
 Channels Code :
 
